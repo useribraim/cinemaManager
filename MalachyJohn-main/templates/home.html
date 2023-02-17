@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block content %}
+{% for screening in screening_list %}
+
+<div class="post-entry">
+    <h2><a href="">{{screening}}</a></h2>
+    <p>{{screening}}</p>
+</div>
+{% endfor %}
+{% endblock content %}
