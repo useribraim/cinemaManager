@@ -5,5 +5,8 @@ from django.http import HttpResponse
 def movie(request):
     return render(request, 'first/index.html', {})
 
+def room(request):
+    return HttpResponse("Example room")
+
 def index(request):
     return HttpResponse("Example message.")
