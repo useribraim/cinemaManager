@@ -19,4 +19,5 @@ from first import views
 
 urlpatterns = [
     path('', include('first.urls')),
+    path("admin/" admin.site.urls)
 ]
